@@ -1,0 +1,35 @@
+
+.grid-container {
+ display: grid;
+ grid-template-columns: repeat(2 , minmax(60px, 1fr));
+ grid-column-gap: 5px;
+grid-row-gap:5px ;
+  justify-content: space-around;
+
+}
+.grid-item {
+ padding: 10px;
+ font-size: 15px;
+ text-align: center;
+ /*background-color: #12AABB;*/
+ text-align:justify;
+ justify-self:start;
+ align-self: start;
+}
+
+.left{
+	/*padding: 10px;*/
+	text-align:justify;
+ /*justify-self:start;
+ align-self: start;*/
+   justify-content: space-evenly;
+
+}
+.center{
+	   justify-content: space-evenly;
+
+}
+table
+{
+background-color:#ffcccc;
+}

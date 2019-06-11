@@ -1,0 +1,90 @@
+<html>
+<head>
+<title>Home Page</title>
+
+<style> 
+  .header {
+  background-color: #666;
+  padding: 3px;
+  font-size: 25px;
+  color: white;
+}
+.content{ min-height: 77%; float: left;width: 82%; background-color:#F5F5DC;}
+   .clear{clear: both;}
+footer {
+  background-color: #777;
+  padding: 2px;
+  text-align: center;
+  color: white;
+}
+ul {
+  list-style-type:none;
+  margin: 0;
+  float: left;
+  width: 18%;
+  height: 77%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #778899;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+</style>
+</head>
+<body>
+  <div class="header">
+  <img src="download.png" height="50px" width="50px">
+  <div align="right">
+
+    <button type="button" onclick="displaySignin()" style="height:40px;width:70px">sign in</a></button>
+
+  <button type="button" onclick="displaySignup()"style="height:40px;width:70px">sign up</a></button></div>
+</div>
+    <ul>
+      <li><a href="home.html">home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+       <li><a href="blog.html">Blog</a></li>
+       <li><a href="about.html">About</a></li>
+       <li><a href="#">category</a></li>
+    </ul>
+
+
+    <div class="content id="signup" id="contact" id="blog" id="signin" id="about" ">
+    <h2><font color="blue"><b>HOME PAGE</b></font></h2>
+<p>This is an home pageYou can have the sleekest, most stunning website design, but if visitors can't understand what you do within seconds, you're going to lose them.</p>
+
+<p>Your hero message is the attention-grabbing hook that gets someone to stop scrolling and pay attention. Intel periodically updates their hero message to give examples of their technology at work.  Their current hero message, "We're changing the game," piques your curiosity and invites you in. Your hero message is the attention-grabbing hook that gets someone to stop scrolling and pay attention. Intel periodically updates their hero message to give examples of their technology at work.  Their current hero message, "We're changing the game," piques your curiosity and invites you in.</p>
+</div></div>
+    <div class="clear"></div>
+  <footer>
+      <p>Footer</p>
+  </footer>
+      <script>
+function displaySignup() {
+  document.getElementById("signup").innerHTML = "signup.html";
+}
+function displaySignin() {
+  document.getElementById("signin").innerHTML = "signin.html";
+}
+function displayContact() {
+  document.getElementById("contact").innerHTML = "contact.html";
+}
+function displayBlog() {
+  document.getElementById("blog").innerHTML = "blog.html";
+}
+function displayAbout() {
+  document.getElementById("about").innerHTML = "about.html";
+}
+</script>
+</body>
+</html>
